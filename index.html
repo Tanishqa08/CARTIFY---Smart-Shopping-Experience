@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartify</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+    <header class="header">
+        <div class="nav"></div>
+        <div class="pannel"></div>
+        <div class="nav">
+  
+            <div class="nav-logo">
+                <div class="logo">
+                    <img src="logo.svg" alt="Cartify Logo" height="60" class="border">
+                </div>
+            </div>
+            <div class="nav-border border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="#" class="add-sec">India</a>
+                </div>
+            </div>
+            <div class="nav-search ">
+                <select class="nav-select">
+                    <option value="All">All</option>
+                    <option value="All">Kids</option>
+                    <option value="All">Men</option>
+                    <option value="All">Women</option>
+                    <option value="All">Children</option>
+                    <option value="All">Electrnic</option>
+                    <option value="All">Skin</option>
+                    <option value="All">Hair</option>
+                    <option value="All">Face</option>
+                    <option value="All">Plants</option>
+                    <option value="All">Religion</option>
+                    <option value="All">Home</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="nav-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-lang border">
+                <div class="lang-icon"><span class="flag-icon" aria-label="India flag"><img src="https://flagcdn.com/w40/in.png" alt="India Flag" style="width: 24px; height: 20px;"></span></div>
+                <select class="nav-op">
+                    <option value="EN">EN</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="Urdu">Urdu</option>
+                    <option value="Franch">Franch</option>
+                    <option value="Korean">Korean</option>
+                    <option value="Japness">Japness</option>
+                    <option value="Thai">Thai</option>
+                    <option value="Philipins">Philipins</option>
+                    <option value="Russhia">Russhia</option>
+                    <option value="Chaines">chaines</option>
+                </select>
+            </div>
+            <a href="./sign.html" class="sign-in border">
+                <span class="line1">Hello, Sign in</span>
+                <span class="line2 nav-second">Account & Lists</span>
+            </a>
+            <div class="return border">
+                <span class="line3">Returns</span>
+                <span class="line4 nav-second">& Orders</span>
+            </div>
+            <a href="./cart.html" class="nav-cart border" aria-label="Open cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span>
+            </a>
+        </div>
+        </div>
+        </div>
+        <div class="pannel">
+            <div class="pannel-icon border" onclick="openSidebar()">
+                <i class="fa-solid fa-bars"></i>ALL
+            </div>
+            <div class="pannel-item ">
+                <a href="./index.html" class="border">Fresh</a>
+                <a href="./category.html#mxplayer" class="border">MX Player</a>
+                <a href="./sell.html" class="border">Sell</a>
+                <a href="./category.html#bestsellers" class="border">Bestsellers</a>
+                <a href="./mobiles.html" class="border">Mobiles</a>
+                <a href="./category.html#todays-deals" class="border">Today's Deals</a>
+                <a href="./category.html#customer-service" class="border">Customer Service</a>
+                <a href="./category.html#prime" class="border">Prime</a>
+                <a href="./category.html#new-releases" class="border">New Releases</a>
+                <a href="./category.html#amazon-pay" class="border">Amazon Pay</a>
+                <a href="./category.html#fashion" class="border">Fashoin</a>
+                <a href="./electronics.html" class="border">Electronics</a>
+                <a href="./category.html#home-kitchen" class="border">Home & kitchen</a>
+                <a href="./category.html#books" class="border">Books</a>
+                <a href="./category.html#computer" class="border">Computer</a>
+                <a href="./category.html#gifts-cards" class="border">Gifts Cards</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- sidebar  -->
+
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <button class="close-btn" onclick="closeSidebar()">✕</button>
+            <h2>Hello, Sign in</h2>
+        </div>
+
+        <ul class="sidebar-list">
+            <li>Mobiles</li>
+            <li>Electronics</li>
+            <li>Fashion</li>
+            <li>Home & Kitchen</li>
+            <li>Books</li>
+            <li>Customer Service</li>
+            <li>Prime</li>
+            <li>Sell on Amazon</li>
+        </ul>
+    </div>
+    <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
+
+    <div class="hero-section">
+    </div>
+    <div class="container">
+        <div class="shop box">
+            <h2>Revamp your home in style</h2>
+            <div class="grid">
+                <div class="item">
+                    <img src="box1.jpg" alt="">
+                    <p>Cushion cover,Bedsheets & more</p>
+                </div>
+                <div class="item">
+                    <img src="box1ii.jpg" alt="">
+                    <p>Figurines ,vases & more</p>
+                </div>
+                <div class="item">
+                    <img src="boxiii.jpg" alt="">
+                    <p>Home storage</p>
+                </div>
+                <div class="item">
+                    <img src="boxiv.jpg" alt="">
+                    <p>Lighting Solution</p>
+                </div>
+            </div>
+            <a href="#" class="shop-link">Explore all</a>
+        </div>
+        <div class=" shop2 box">
+            <h2>Bulk order discounts + Up to 18% GST savings</h2>
+            <div class="grid2 grid">
+                <div class="item">
+                    <img src="box2.jpg" alt="">
+                    <p>Up to 45% off Laptops</p>
+                    <p class="price">₹50000</p>
+                </div>
+                <div class="item">
+                    <img src="box2ii.jpg" alt="">
+                    <p>Up to 60% off appliances</p>
+                    <p class="price">₹15000</p>
+                </div>
+                <div class="item">
+                    <img src="box2iii.jpg" alt="">
+                    <p>Min. 50% off Office Furniture</p>
+                    <p class="price">₹1500</p>
+                </div>
+                <div class="item">
+                    <img src="box2iv.jpg" alt="">
+                    <p>Up to 60% off Business Purchases</p>
+                    <p class="price">₹4000</p>
+                </div>
+            </div>
+            <a href="#" class="shop-link">Create a free account</a>
+        </div>
+
+        <div class=" shop3 box">
+            <h2>Appliances for your home | Up to 55% off</h2>
+            <div class=" grid3 grid">
+                <div class="item">
+                    <img src="box3.jpg" alt="">
+                    <p>Air Conditioners</p>
+                    <p class="price">₹30000</p>
+                </div>
+                <div class="item">
+                    <img src="box3ii.jpg" alt="">
+                    <p>Refrigrators</p>
+                    <p class="price">₹25000</p>
+                </div>
+                <div class="item">
+                    <img src="box3iii.jpg" alt="">
+                    <p>Microwaves</p>
+                    <p class="price">₹5000</p>
+                </div>
+                <div class="item">
+                    <img src="box3iv.jpg" alt="">
+                    <p>Washing Machines</p>
+                    <p class="price">₹20000</p>
+                </div>
+            </div>
+            <a href="#" class="shop-link">See more</a>
+        </div>
+        <div class=" shop4 box">
+            <h2>Starting ₹49 | Deals on home essentials</h2>
+            <div class="grid4 grid">
+                <div class="item">
+                    <img src="box4.jpg" alt="">
+                    <p>Cleaning supplies</p>
+                    <p class="price">₹49</p>
+                </div>
+                <div class="item">
+                    <img src="box4ii.jpg" alt="">
+                    <p>Bathroom Accessories</p>
+                    <p class="price">₹99</p>
+                </div>
+                <div class="item">
+                    <img src="box4iii.jpg" alt="">
+                    <p>Home tools</p>
+                    <p class="price">₹199</p>
+                </div>
+                <div class="item">
+                    <img src="box4iv.jpg" alt="">
+                    <p>Wallpapers</p>
+                    <p class="price">₹149</p>
+                </div>
+            </div>
+            <a href="#" class="shop-link">Explore all</a>
+        </div>
+
+        
+        <div class=" shop5 box">
+            <h2>Automotive essentials | Up to 60% off</h2>
+            <div class="grid5 grid">
+                <div class="item">
+                    <img src="box5i.jpg" alt="">
+                    <p>Cleaning accessories</p>
+                    <p class="price">₹49</p>
+                </div>
+                <div class="item">
+                    <img src="box5ii.jpg" alt="">
+                    <p>Tyre & rim care</p>
+                    <p class="price">₹99</p>
+                </div>
+                <div class="item">
+                    <img src="box5iii.jpg" alt="">
+                    <p>Helmets</p>
+                    <p class="price">₹199</p>
+                </div>
+                <div class="item">
+                    <img src="box5iv.jpg" alt="">
+                    <p>Vacuum cleaner</p>
+                    <p class="price">₹149</p>
+                </div>
+            </div>
+            <a href="#" class="shop-link">Explore all</a>
+        </div>
+        <div class=" shop6 box">
+            <h2>Starting ₹299 | Amazon Brands & more</h2>
+            <div class="grid6 grid">
+                <div class="item">
+                    <img src="box6i.jpg" alt="">
+                    <p>BedSheets</p>
+                    <p class="price">₹499</p>
+                </div>
+                <div class="item">
+                    <img src="box6ii.jpg" alt="">
+                    <p>Curtains</p>
+                    <p class="price">₹299</p>
+                </div>
+                <div class="item">
+                    <img src="box6iii.jpg" alt="">
+                    <p>Ironing board & more</p>
+                    <p class="price">₹499</p>
+                </div>
+                <div class="item">
+                    <img src="box6iv.jpg" alt="">
+                    <p>Home decor</p>
+                    <p class="price">₹349</p>
+                </div>
+            </div>
+            <a href="#" class="shop-link">Explore all</a>
+        </div>
+
+
+        <div class="second-shop">
+
+            <span><a href="#" class="second-shop-link ">Up to 60% off | Home & kitchen essentials from women owned
+                    brands</a>
+                <a href="#" class="link">See all offers</a></span>
+            <div class="list-series">
+                <div class="product-list" data-title="Kitchen and Dining" data-description="Premium kitchen essentials designed for functionality and elegant home styling.">
+                    <img src="list1.jpg" alt="Kitchen and dining essentials">
+                </div>
+                <div class="product-list" data-title="Home Office Accessories" data-description="Smart picks for your workspace, including organizers and decorative accents.">
+                    <img src="list1i.jpg" alt="Home office accessories">
+                </div>
+                <div class="product-list" data-title="Decor and Lighting" data-description="Beautiful decor items and lighting choices that brighten every room.">
+                    <img src="list1ii.jpg" alt="Decor and lighting products">
+                </div>
+                <div class="product-list" data-title="Comfort Textiles" data-description="Soft cushions, throws and bedding pieces for a cozy, polished home look.">
+                    <img src="listiii.jpg" alt="Comfort textiles and bedding">
+                </div>
+                <div class="product-list" data-title="Wellness Essentials" data-description="Wellness and self-care products crafted for everyday refreshment.">
+                    <img src="seco-8.jpg" alt="Wellness essentials">
+                </div>
+                <div class="product-list" data-title="Organizers and Storage" data-description="Smart storage solutions to keep your home tidy and efficient.">
+                    <img src="listv.jpg" alt="Organizers and storage solutions">
+                </div>
+                <div class="product-list" data-title="Cleaning Tools" data-description="Essential cleaning tools and accessories for a fresh, neat home.">
+                    <img src="seco-6.jpg" alt="Cleaning tools and devices">
+                </div>
+                <div class="product-list" data-title="Home Tech" data-description="Modern smart home products that make daily life easier and more connected.">
+                    <img src="seco-5.jpg" alt="Home tech and smart devices">
+                </div>
+                <div class="product-list" data-title="Seasonal Picks" data-description="Seasonal favorites and gift ideas tailored to the latest trends.">
+                    <img src="seco-4.jpg" alt="Seasonal picks and gift ideas">
+                </div>
+                <div class="product-list" data-title="Fashionable Picks" data-description="Curated fashion and lifestyle products from women-owned brands.">
+                    <img src="seco-3.jpg" alt="Fashionable home and lifestyle picks">
+                </div>
+                <div class="product-list" data-title="Daily Essentials" data-description="Everyday essentials selected for convenience and comfort at home.">
+                    <img src="seco-1.jpg" alt="Daily essentials">
+                </div>
+                <div class="product-list" data-title="Organized Living" data-description="Organized living essentials to help you arrange your home beautifully.">
+                    <img src="seco-2.jpg" alt="Organized living products">
+                </div>
+            </div>
+            <div id="second-shop-info" class="second-shop-info">
+                <h3 id="second-shop-info-title">Click an image for details</h3>
+                <p id="second-shop-info-text">Each product image now shows a short information card when clicked.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- API-driven products will render here -->
+    <section id="api-products-root" class="more-products">
+        <div class="container">
+            <div class="box">
+                <h2>Recommended for you</h2>
+                <div id="api-grid" class="grid">
+                    <!-- items injected by app.js -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+    <footer>
+        <div class="footer-1">
+            <h2>See personalized recommendations</h2>
+            <a href="./sign.html" class="btn" style="text-align: center;">Sign in</a>
+            <div class="footer-link-1">
+                <p>New Customer?</p><a href="#">See here</a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-2">
+            <a href="#top" class="back-to-top">Back to top</a>
+        </div>
+        <div class="footer-3">
+            <div class="footer-list-1">
+                <h3 class="footer-h3">Get to Know <br>Us</h3>
+                <ul class="footer-ul">
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-2">
+                <h3 class="footer-h3">Connect With <br> Us</h3>
+                <ul class="footer-ul">
+                    <li><a href="https://www.facebook.com" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="https://www.twitter.com" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-3">
+                <h3 class="footer-h3">Make Money With us</h3>
+                <ul class="footer-ul">
+                    <li><a href="./sell.html">Sell on Amazon</a></li>
+                    <li><a href="#">Sell under Amazon Accelerator</a></li>
+                    <li><a href="#">Protact and Biuld your brand</a></li>
+                    <li><a href="#">Amazon Globel Selling</a></li>
+                    <li><a href="#">Suply to Amazon </a></li>
+                    <li><a href="#">Become to Affilite</a></li>
+                    <li><a href="#">Fulfilment By Amazon</a></li>
+                    <li><a href="#">Adverties Your Product</a></li>
+                    <li><a href="#">Amazon Pay on Merchants</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-4">
+                <h3 class="footer-h3">Let Us Help You</h3>
+                <ul class="footer-ul">
+                    <li><a href="#">Your Account </a></li>
+                    <li><a href="#">Return Center</a></li>
+                    <li><a href="#">Recall And Product Safty Alerts</a></li>
+                    <li><a href="#">100% Parchase Protection</a></li>
+                    <li><a href="#">Amazon App Download</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom">
+            <div class="cartify-link">
+                <img src="logo.svg" alt="Cartify Logo" height="60">
+            </div>
+            <!-- <div class="language">
+                <select>
+                    <option value="English">English</option>
+                </select>
+            </div> -->
+        </div>
+        <div class="bottom-2">
+            <span class=" list list1">
+                <h5><a href="#">AbeBooks</a></h5>
+                <a href="#">Books,art</a>
+                <a href="#">& Collectibles</a>
+            </span>
+            <span class=" list list-2">
+                <h5><a href="#">Amazon Web Services</a></h5>
+                <a href="#">Scalable Cloud</a>
+                <a href="#">Computing Services</a>
+            </span>
+            <span class="list list-3">
+                <h5><a href="#">Audile</a></h5>
+                <a href="#">Download</a>
+                <a href="#">Audio Book</a>
+            </span>
+            <span class=" list list-4">
+                <h5><a href="#">IMDB</a></h5>
+                <a href="#">Movies,TV</a>
+                <a href="#">Celebrities</a>
+            </span>
+            <span class="list list5 ">
+                <h5><a href="#">Shopbop</a></h5>
+                <a href="#">Designers</a>
+                <a href="#">Fashion Brands</a>
+            </span>
+            <span class="list list5">
+                <h5><a href="#">Amazon Business</a></h5>
+                <a href="#">Everthing For </a>
+                <a href="#">Your Business</a>
+            </span>
+            <span class="list list5">
+                <h5><a href="#">Amazon Prime Music</a></h5>
+                <a href="#">100 Million Songs ad-free</a>
+                <a href="#">Over 150 Million Podcast Episodes</a>
+            </span>
+        </div>
+        <div class="bottom-3">
+            <span class="last-1">
+                <a href="#">Conditions of Use & sale</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interst Based Ad </a>
+            </span>
+            <span class="last-1">
+                <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+            </span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

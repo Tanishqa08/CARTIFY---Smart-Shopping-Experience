@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title> Cart </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="nav">
+      <div class="nav-logo"><div class="logo"></div></div>
+      <div class="nav-cart">Cart <a href="index.html">Shop</a></div>
+    </div>
+  </header>
+  <main class="cart-page">
+    <div id="cart-root"></div>
+  </main>
+  <script src="app.js"></script>
+  <script>
+    // Render after app.js loads
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof renderCartPage === 'function') renderCartPage();
+    });
+  </script>
+</body>
+</html>

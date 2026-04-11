@@ -1,0 +1,13 @@
+
+{
+  "products": [
+    { "id": 1, "title": "Laptop", "price": 50000, "image": "images/laptop.jpg", "category": "electronics" },
+    { "id": 2, "title": "Phone", "price": 17000, "image": "images/phone.jpg", "category": "electronics" },
+    { "id": 3, "title": "Headphones", "price": 3000, "image": "images/headphones.jpg", "category": "electronics" },
+    { "id": 4, "title": "Shoes", "price": 2500, "image": "images/shoes.jpg", "category": "fashion" },
+    { "id": 5, "title": "Tablet", "price": 15000, "image": "images/tablet.jpg", "category": "electronics" },
+    { "id": 6, "title": "Book", "price": 500, "image": "images/book.jpg", "category": "books" },
+    { "id": 7, "title": "Watch", "price": 4000, "image": "images/watch.jpg", "category": "accessories" },
+    { "id": 8, "title": "Bag", "price": 1500, "image": "images/bag.jpg", "category": "accessories" }
+  ]
+}

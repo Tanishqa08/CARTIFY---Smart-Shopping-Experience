@@ -1,0 +1,37 @@
+[
+  {
+    "id": "box2iv.jpg",
+    "name": "Up to 60% off Business Purchases",
+    "price": 4000,
+    "image": "box2iv.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "images/phone.jpg",
+    "name": "Phone",
+    "price": 1360000,
+    "image": "images/phone.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "images/book.jpg",
+    "name": "Book",
+    "price": 40000,
+    "image": "images/book.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "images/watch.jpg",
+    "name": "Watch",
+    "price": 320000,
+    "image": "images/watch.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "images/tablet.jpg",
+    "name": "Tablet",
+    "price": 15000,
+    "image": "images/tablet.jpg",
+    "quantity": 1
+  }
+]

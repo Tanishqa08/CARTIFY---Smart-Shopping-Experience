@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Category </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="top">
+    <header class="header">
+        <div class="nav"></div>
+        <div class="pannel"></div>
+        <div class="nav">
+            <div class="nav-logo">
+                <div class="logo border"></div>
+            </div>
+            <div class="nav-border border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="#" class="add-sec">India</a>
+                </div>
+            </div>
+            <div class="nav-search ">
+                <select class="nav-select">
+                    <option value="All">All</option>
+                    <option value="All">Kids</option>
+                    <option value="All">Men</option>
+                    <option value="All">Women</option>
+                    <option value="All">Children</option>
+                    <option value="All">All</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="nav-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-lang border">
+                <div class="lang-icon"><span class="flag-icon" aria-label="India flag">🇮🇳</span></div>
+                <select class="nav-op">
+                    <option value="EN">EN</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Spanish">Spanish</option>
+                </select>
+            </div>
+            <a href="./sign.html" class="sign-in border">
+                <span class="line1">Hello, Sign in</span>
+                <span class="line2 nav-second">Account & Lists</span>
+            </a>
+            <div class="return border">
+                <span class="line3">Returns</span>
+                <span class="line4 nav-second">& Orders</span>
+            </div>
+            <a href="./cart.html" class="nav-cart border" aria-label="Open cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span>
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h2 id="category-title">Category</h2>
+            <p id="category-description">Choose a category from the menu to see related information.</p>
+            <div id="category-features" class="grid category-features"></div>
+            <a id="category-cta" href="./index.html" class="shop-link">Back to Amazon Home</a>
+        </div>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="footer-1">
+            <h2>See personalized recommendations</h2>
+            <a href="./sign.html" class="btn" style="text-align: center;">Sign in</a>
+            <div class="footer-link-1">
+                <p>New Customer?</p><a href="#">See here</a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-2">
+            <a href="#top" class="back-to-top">Back to top</a>
+        </div>
+        <div class="footer-3">
+            <div class="footer-list-1">
+                <h3 class="footer-h3">Get to Know <br>Us</h3>
+                <ul class="footer-ul">
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press Releases</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-2">
+                <h3 class="footer-h3">Connect With <br> Us</h3>
+                <ul class="footer-ul">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-3">
+                <h3 class="footer-h3">Make Money With us</h3>
+                <ul class="footer-ul">
+                    <li><a href="./sell.html">Sell on Amazon</a></li>
+                    <li><a href="#">Fulfilment By Amazon</a></li>
+                    <li><a href="#">Advertise Your Product</a></li>
+                    <li><a href="#">Amazon Pay on Merchants</a></li>
+                </ul>
+            </div>
+            <div class="footer-list-4">
+                <h3 class="footer-h3">Let Us Help You</h3>
+                <ul class="footer-ul">
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Return Center</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom">
+            <div class="amazon-link">
+                <a href="./index.html"><img src="Amazon_logo.svg.png" width="80px" alt=""></a>
+            </div>
+        </div>
+        <div class="bottom-3">
+            <span class="last-1">
+                <a href="#">Conditions of Use & sale</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Interest Based Ads</a>
+            </span>
+            <span class="last-1">
+                <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+            </span>
+        </div>
+    </footer>
+
+    <script>
+        const categories = {
+            mxplayer: {
+                title: 'MX Player',
+                description: 'Stream movies, shows, and music from the MX Player experience with curated entertainment content.',
+                features: [
+                    'Watch popular films and web series.',
+                    'Stream music and radio channels.',
+                    'Enjoy a modern media experience.',
+                ],
+            },
+            bestsellers: {
+                title: 'Bestsellers',
+                description: 'See top-selling products across categories, selected for popularity and great value.',
+                features: [
+                    'Trending items from Amazon shoppers.',
+                    'Top-rated products with customer reviews.',
+                    'Fresh offers and limited-time deals.',
+                ],
+            },
+            'todays-deals': {
+                title: "Today's Deals",
+                description: 'Discover today’s best discounts on electronics, home goods, fashion, and more.',
+                features: [
+                    'Limited-time offers every day.',
+                    'Daily deals from top brands.',
+                    'Grab extra savings while stock lasts.',
+                ],
+            },
+            'customer-service': {
+                title: 'Customer Service',
+                description: 'Find help for orders, returns, shipping, and account support.',
+                features: [
+                    'Track your orders easily.',
+                    'Start a return or replacement.',
+                    'Get help from support anytime.',
+                ],
+            },
+            prime: {
+                title: 'Prime',
+                description: 'Learn about Amazon Prime benefits like fast delivery, streaming, and exclusive offers.',
+                features: [
+                    'Free fast delivery on eligible items.',
+                    'Prime Video and music access.',
+                    'Member-only deals and savings.',
+                ],
+            },
+            'new-releases': {
+                title: 'New Releases',
+                description: 'Explore the latest products and launches across fashion, electronics, books, and more.',
+                features: [
+                    'Newest products from top brands.',
+                    'Fresh launches every week.',
+                    'Hot items chosen by Amazon editors.',
+                ],
+            },
+            'amazon-pay': {
+                title: 'Amazon Pay',
+                description: 'Use Amazon Pay for secure checkout, easy payments, and merchant offers.',
+                features: [
+                    'Quick and secure payments.',
+                    'Use stored payment methods.',
+                    'Available on millions of sites and apps.',
+                ],
+            },
+            fashion: {
+                title: 'Fashion',
+                description: 'Shop clothing, shoes, and accessories for men, women, and kids.',
+                features: [
+                    'Seasonal trends and styles.',
+                    'Top brands and curated looks.',
+                    'Easy returns on eligible fashion items.',
+                ],
+            },
+            'home-kitchen': {
+                title: 'Home & Kitchen',
+                description: 'Find home essentials, kitchen appliances, decor, and everyday essentials for your space.',
+                features: [
+                    'Cookware, appliances, and home decor.',
+                    'Smart home and storage solutions.',
+                    'Great deals for every room.',
+                ],
+            },
+            books: {
+                title: 'Books',
+                description: 'Discover bestsellers, new releases, and books for every reader.',
+                features: [
+                    'Top fiction and non-fiction picks.',
+                    'Books for kids, students, and professionals.',
+                    'Easy browsing by genre and author.',
+                ],
+            },
+            computer: {
+                title: 'Computer',
+                description: 'Shop laptops, accessories, and computer gear for work, study, and gaming.',
+                features: [
+                    'Laptops and desktops from top brands.',
+                    'Keyboards, mice, and accessories.',
+                    'High-performance hardware options.',
+                ],
+            },
+            'gifts-cards': {
+                title: 'Gift Cards',
+                description: 'Choose the perfect gift card for any occasion, delivered instantly or by mail.',
+                features: [
+                    'E-gift cards for fast delivery.',
+                    'Physical cards for special occasions.',
+                    'Gift cards for brands, games, and more.',
+                ],
+            },
+        };
+
+        function renderCategory() {
+            const hash = window.location.hash.slice(1).toLowerCase();
+            const category = categories[hash] || null;
+            const title = document.getElementById('category-title');
+            const description = document.getElementById('category-description');
+            const features = document.getElementById('category-features');
+            const cta = document.getElementById('category-cta');
+
+            if (!category) {
+                title.textContent = 'Category Information';
+                description.textContent = 'Choose a category from the menu to view details about that section.';
+                features.innerHTML = '<div class="item"><p>Select any link from the navigation to see related information.</p></div>';
+                cta.textContent = 'Back to Amazon Home';
+                cta.href = './index.html';
+                return;
+            }
+
+            title.textContent = category.title;
+            description.textContent = category.description;
+            cta.textContent = 'Browse ' + category.title;
+            cta.href = './index.html';
+
+            features.innerHTML = category.features
+                .map(feature => `<div class="item"><i class="fa-solid fa-check" style="color:#ff9900;margin-right:10px;"></i><p>${feature}</p></div>`)
+                .join('');
+        }
+
+        window.addEventListener('hashchange', renderCategory);
+        window.addEventListener('DOMContentLoaded', renderCategory);
+    </script>
+</body>
+
+</html>
