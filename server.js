@@ -1,3 +1,4 @@
+import express from "express";
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs').promises;
@@ -110,3 +111,13 @@ app.delete('/api/cart/:id', async (req, res) => {
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 
 app.listen(PORT, () => console.log(`Backend API running on http://localhost:${PORT}`));
+
+
+// test route
+app.get("/", (req, res) => {
+  res.send("Cartify Backend Running 🚀");
+});
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Server running on port ${PORT}`);
+});
