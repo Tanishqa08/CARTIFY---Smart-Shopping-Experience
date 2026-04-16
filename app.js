@@ -708,4 +708,3 @@ async function fetchAndRenderProducts() {
     searchInput.dispatchEvent(new Event('input'));
   }
 }
-

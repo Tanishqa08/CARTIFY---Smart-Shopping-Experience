@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electronics</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,7 +18,9 @@
         <div class="pannel"></div>
         <div class="nav">
             <div class="nav-logo">
-                <div class="logo border"></div>
+                <div class="logo border">
+                    <img src="logo.svg" alt="Cartify Logo" height="60">
+                </div>
             </div>
             <div class="nav-border border">
                 <p class="add-first">Deliver to</p>
@@ -41,7 +44,7 @@
                     <option value="All">Religion</option>
                     <option value="All">Home</option>
                 </select>
-                <input type="text" placeholder="Search Amazon" class="nav-input">
+                <input type="text" placeholder="Search Cartify" class="nav-input">
                 <div class="search-icon">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
@@ -92,7 +95,7 @@
                 <a href="./category.html#customer-service" class="border">Customer Service</a>
                 <a href="./category.html#prime" class="border">Prime</a>
                 <a href="./category.html#new-releases" class="border">New Releases</a>
-                <a href="./category.html#amazon-pay" class="border">Amazon Pay</a>
+                <a href="./category.html#cartify-pay" class="border">Cartify Pay</a>
                 <a href="./category.html#fashion" class="border">Fashoin</a>
                 <a href="./electronics.html" class="border">Electronics</a>
                 <a href="./category.html#home-kitchen" class="border">Home & kitchen</a>
@@ -119,14 +122,14 @@
             <li>Books</li>
             <li>Customer Service</li>
             <li>Prime</li>
-            <li>Sell on Amazon</li>
+            <li>Sell on Cartify</li>
         </ul>
     </div>
     <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
 
-    <div class="hero-section">
-    </div>
-    <div class="container">
+    <!-- <div class="hero-section"> -->
+    <!-- </div> -->
+    <div class="container" style="margin-top: 20px;">
         <div class="box">
             <h2>Electronics</h2>
             <p>Explore a wide range of electronics including laptops, TVs, cameras, and more from leading brands.</p>
@@ -156,18 +159,6 @@
         </div>
     </div>
 
-    <!-- API-driven products will render here -->
-    <section id="api-products-root" class="more-products">
-        <div class="container">
-            <div class="box">
-                <h2>Recommended for you</h2>
-                <div id="api-grid" class="grid">
-                    <!-- items injected by app.js -->
-                </div>
-            </div>
-        </div>
-    </section>
-
     <hr>
     <footer>
         <div class="footer-1">
@@ -185,10 +176,10 @@
             <div class="footer-list-1">
                 <h3 class="footer-h3">Get to Know <br>Us</h3>
                 <ul class="footer-ul">
-                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">About Cartify</a></li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Press Releases</a></li>
-                    <li><a href="#">Amazon Science</a></li>
+                    <li><a href="#">Cartify Science</a></li>
                 </ul>
             </div>
             <div class="footer-list-2">
@@ -202,15 +193,15 @@
             <div class="footer-list-3">
                 <h3 class="footer-h3">Make Money With us</h3>
                 <ul class="footer-ul">
-                    <li><a href="./sell.html">Sell on Amazon</a></li>
-                    <li><a href="#">Sell under Amazon Accelerator</a></li>
+                    <li><a href="./sell.html">Sell on Cartify</a></li>
+                    <li><a href="#">Sell under Cartify Accelerator</a></li>
                     <li><a href="#">Protact and Biuld your brand</a></li>
-                    <li><a href="#">Amazon Globel Selling</a></li>
-                    <li><a href="#">Suply to Amazon </a></li>
+                    <li><a href="#">Cartify Globel Selling</a></li>
+                    <li><a href="#">Suply to Cartify </a></li>
                     <li><a href="#">Become to Affilite</a></li>
-                    <li><a href="#">Fulfilment By Amazon</a></li>
+                    <li><a href="#">Fulfilment By Cartify</a></li>
                     <li><a href="#">Adverties Your Product</a></li>
-                    <li><a href="#">Amazon Pay on Merchants</a></li>
+                    <li><a href="#">Cartify Pay on Merchants</a></li>
                 </ul>
             </div>
             <div class="footer-list-4">
@@ -220,7 +211,7 @@
                     <li><a href="#">Return Center</a></li>
                     <li><a href="#">Recall And Product Safty Alerts</a></li>
                     <li><a href="#">100% Parchase Protection</a></li>
-                    <li><a href="#">Amazon App Download</a></li>
+                    <li><a href="#">Cartify App Download</a></li>
                     <li><a href="#">Help</a></li>
                 </ul>
             </div>
@@ -228,7 +219,7 @@
         <hr>
         <div class="bottom">
             <div class="amazon-link">
-                <a href="./index.html"><img src="Amazon_logo.svg.png" width="80px" alt=""></a>
+                <a href="./index.html"><img src="logo.svg" height="60px" alt="cartify logo"></a>
             </div>
         </div>
         <div class="bottom-2">
@@ -238,7 +229,7 @@
                 <a href="#">& Collectibles</a>
             </span>
             <span class=" list list-2">
-                <h5><a href="#">Amazon Web Services</a></h5>
+                <h5><a href="#">Cartify Web Services</a></h5>
                 <a href="#">Scalable Cloud</a>
                 <a href="#">Computing Services</a>
             </span>
@@ -258,12 +249,12 @@
                 <a href="#">Fashion Brands</a>
             </span>
             <span class="list list5">
-                <h5><a href="#">Amazon Business</a></h5>
+                <h5><a href="#">Cartrify Business</a></h5>
                 <a href="#">Everthing For </a>
                 <a href="#">Your Business</a>
             </span>
             <span class="list list5">
-                <h5><a href="#">Amazon Prime Music</a></h5>
+                <h5><a href="#">Cartify Prime Music</a></h5>
                 <a href="#">100 Million Songs ad-free</a>
                 <a href="#">Over 150 Million Podcast Episodes</a>
             </span>
@@ -275,7 +266,7 @@
                 <a href="#">Interst Based Ad </a>
             </span>
             <span class="last-1">
-                <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+                <p>© 1996-2025, Cartify.com, Inc. or its affiliates</p>
             </span>
         </div>
     </footer>

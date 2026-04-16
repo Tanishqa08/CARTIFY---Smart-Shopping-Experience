@@ -1,16 +1,51 @@
 [
   {
+    "id": "images/phone.jpg",
+    "name": "Phone",
+    "price": 17000,
+    "image": "images/phone.jpg",
+    "quantity": 6
+  },
+  {
+    "id": "images/bag.jpg",
+    "name": "Bag",
+    "price": 1500,
+    "image": "images/bag.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "box2ii.jpg",
+    "name": "Up to 60% off appliances",
+    "price": 15000,
+    "image": "box2ii.jpg",
+    "quantity": 2
+  },
+  {
+    "id": "box5ii.jpg",
+    "name": "Tyre & rim care",
+    "price": 99,
+    "image": "box5ii.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "box6iv.jpg",
+    "name": "Home decor",
+    "price": 349,
+    "image": "box6iv.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "box4iii.jpg",
+    "name": "Home tools",
+    "price": 199,
+    "image": "box4iii.jpg",
+    "quantity": 1
+  },
+  {
     "id": "box2iv.jpg",
     "name": "Up to 60% off Business Purchases",
     "price": 4000,
     "image": "box2iv.jpg",
-    "quantity": 1
-  },
-  {
-    "id": "images/phone.jpg",
-    "name": "Phone",
-    "price": 1360000,
-    "image": "images/phone.jpg",
     "quantity": 1
   },
   {
@@ -32,6 +67,34 @@
     "name": "Tablet",
     "price": 15000,
     "image": "images/tablet.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "box1.jpg",
+    "name": "Cushion cover,Bedsheets & more",
+    "price": 199,
+    "image": "box1.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "box1ii.jpg",
+    "name": "Figurines ,vases & more",
+    "price": 236,
+    "image": "box1ii.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "box3iii.jpg",
+    "name": "Microwaves",
+    "price": 5000,
+    "image": "box3iii.jpg",
+    "quantity": 1
+  },
+  {
+    "id": "images/headphones.jpg",
+    "name": "Headphones",
+    "price": 3000,
+    "image": "images/headphones.jpg",
     "quantity": 1
   }
 ]
