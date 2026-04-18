@@ -1,4 +1,4 @@
-import express from "express";
+// import express from "express";
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs').promises;
@@ -120,4 +120,5 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on port ${PORT}`);
-});
+});  
+

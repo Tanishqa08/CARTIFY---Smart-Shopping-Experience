@@ -1,26 +1,5 @@
 [
   {
-    "id": "images/phone.jpg",
-    "name": "Phone",
-    "price": 17000,
-    "image": "images/phone.jpg",
-    "quantity": 6
-  },
-  {
-    "id": "images/bag.jpg",
-    "name": "Bag",
-    "price": 1500,
-    "image": "images/bag.jpg",
-    "quantity": 1
-  },
-  {
-    "id": "box2ii.jpg",
-    "name": "Up to 60% off appliances",
-    "price": 15000,
-    "image": "box2ii.jpg",
-    "quantity": 2
-  },
-  {
     "id": "box5ii.jpg",
     "name": "Tyre & rim care",
     "price": 99,
@@ -42,34 +21,6 @@
     "quantity": 1
   },
   {
-    "id": "box2iv.jpg",
-    "name": "Up to 60% off Business Purchases",
-    "price": 4000,
-    "image": "box2iv.jpg",
-    "quantity": 1
-  },
-  {
-    "id": "images/book.jpg",
-    "name": "Book",
-    "price": 40000,
-    "image": "images/book.jpg",
-    "quantity": 1
-  },
-  {
-    "id": "images/watch.jpg",
-    "name": "Watch",
-    "price": 320000,
-    "image": "images/watch.jpg",
-    "quantity": 1
-  },
-  {
-    "id": "images/tablet.jpg",
-    "name": "Tablet",
-    "price": 15000,
-    "image": "images/tablet.jpg",
-    "quantity": 1
-  },
-  {
     "id": "box1.jpg",
     "name": "Cushion cover,Bedsheets & more",
     "price": 199,
@@ -84,17 +35,17 @@
     "quantity": 1
   },
   {
-    "id": "box3iii.jpg",
-    "name": "Microwaves",
-    "price": 5000,
-    "image": "box3iii.jpg",
+    "id": "images/book.jpg",
+    "name": "Book",
+    "price": 500,
+    "image": "images/book.jpg",
     "quantity": 1
   },
   {
-    "id": "images/headphones.jpg",
-    "name": "Headphones",
-    "price": 3000,
-    "image": "images/headphones.jpg",
+    "id": "images/watch.jpg",
+    "name": "Watch",
+    "price": 4000,
+    "image": "images/watch.jpg",
     "quantity": 1
   }
 ]
