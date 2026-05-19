@@ -112,7 +112,7 @@ app.delete('/api/cart/:id', async (req, res) => {
 // simple health
 app.get('/api/health', (req, res) => res.json({ ok: true }));
 
-app.listen(PORT, () => console.log(`Backend API running on http://localhost:${PORT}`));
+// app.listen(PORT, () => console.log(`Backend API running on http://localhost:${PORT}`));
 
 
 // test route
