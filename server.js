@@ -14,6 +14,13 @@ app.use(express.json());
 // serve static files from project root so frontend can fetch / and /api/* from same origin
 app.use(express.static(path.join(__dirname)));
 
+// GET /api/products -> return products array from db.json
+app.get('/api/products', async (req, res) => {
+  const db = await readJson(DB_PATH);
+  const products = db && Array.isArray(db.products) ? db.products : [];
+  res.json(products);
+});
+
 // ensure cart file exists
 (async () => {
   try {
@@ -37,12 +44,7 @@ async function writeJson(filePath, data) {
   await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
 }
 
-// GET /api/products -> return products array from db.json
-app.get('/api/products', async (req, res) => {
-  const db = await readJson(DB_PATH);
-  const products = db && Array.isArray(db.products) ? db.products : [];
-  res.json(products);
-});
+
 
 // GET /api/products/:id
 app.get('/api/products/:id', async (req, res) => {
