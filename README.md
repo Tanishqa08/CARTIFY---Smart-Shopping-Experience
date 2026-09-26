@@ -39,6 +39,8 @@ Cartify is a full-stack e-commerce web application designed to provide a seamles
 - `POST /api/cart` → Add item to cart
 
 ---
+## Deploy Link
+
 
 ## ⚙️ How to Run Locally
 
