@@ -39,8 +39,10 @@ Cartify is a full-stack e-commerce web application designed to provide a seamles
 - `POST /api/cart` → Add item to cart
 
 ---
+
 ## Deploy Link
 
+https://cartify-smart-shopping-experience.vercel.app/
 
 ## ⚙️ How to Run Locally
 
